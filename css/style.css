@@ -1,0 +1,40 @@
+h1{
+    font-size: 70px;
+    font-family: 'Nosifer', cursive;
+}
+#text{
+    top: 30%;
+    left: 50%;
+    color:maroon;
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Nosifer', cursive;
+    font-style: normal;
+    transform: translate(-50%,-50%)
+}
+.log{
+    margin: 10px;
+}
+p{
+    color: gray;
+    font-family: 'Sancreek', cursive;
+    font-size: 25px
+}
+h2{
+    font-family: 'New Rocker', cursive;
+    font-size: 50px;
+    color: whitesmoke;
+}
+h3{
+    font-family: 'New Rocker', cursive;
+    font-size: 40px;
+    color: whitesmoke;
+}
+body{
+    background-color: black;
+}
+h4{
+    color: black;
+    font-size: 30px;
+    font-family: 'Nosifer', cursive;
+}
