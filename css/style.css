@@ -38,3 +38,47 @@ h4{
     font-size: 30px;
     font-family: 'Nosifer', cursive;
 }
+#turn{
+    top: 10%;
+    left: 85%;
+    color:maroon;
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Nosifer', cursive;
+    font-style: normal;
+    transform: translate(-50%,-50%)
+}
+input[type="radio"]
+{
+    position: relative;
+    top: 10%;
+    left: 0%;
+    width: 25px;
+    height: 25px;
+    
+}
+#right{
+    top: 100%;
+    right: 50%;
+    color:gray;
+    position:relative ;
+    font-size: 20px;
+    font-family: 'Nosifer', cursive;
+    font-style: normal;
+    transform: translate(50%,50%)
+}
+table{
+    width: 1000px;
+    margin: 10px;
+}
+th{
+    color: #fff;
+    font-family: 'New Rocker', cursive;
+    font-size: 18px;
+}
+input[type="checkbox"]
+{
+    width: 25px;
+    height: 25px;
+    top: 60%;
+}
