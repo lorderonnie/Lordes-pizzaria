@@ -43,9 +43,10 @@
     </div>
     </center><br><br>
     <div class="container-fluid">
-    <center>
+    <center>       
+      <form class="finalLimit">
+        <div id="all">
         <h2>Choose your size...</h2><br>
-      <form>
         <div class="row">
             <div class="col-md-3">
                 <div class="front">
@@ -54,7 +55,7 @@
                      <p id="right">4 SLICES</p>
                      <p>ksh.200</p> 
                     <div id="turn">
-                    <label><input type="radio" name="select" </label>
+                    <label><input type="radio" name="select" ></input></label>
                     </div>   
                 </div>    
             </div>
@@ -65,7 +66,7 @@
                          <p id="right">6 SLICES</p> 
                          <p>ksh.400</p>
                         <div id="turn">
-                        <label><input type="radio" name="select" </label>
+                        <label><input type="radio" name="select" ></input></label>
                         </div>   
                     </div>    
             </div>
@@ -76,7 +77,7 @@
                             <p id="right">8 SLICES</p> 
                             <p>ksh.600</p>
                         <div id="turn">
-                           <label><input type="radio" name="select" </label>
+                           <label><input type="radio" name="select" ></input></label>
                         </div>   
                     </div>    
             </div> 
@@ -87,7 +88,7 @@
                             <p id="right">10 SLICES</p> 
                             <p>ksh.800</p>
                         <div id="turn">
-                           <label><input type="radio" name="select" </label>
+                           <label><input type="radio" name="select" ></input></label>
                         </div>   
                     </div>    
             </div> 
@@ -100,7 +101,7 @@
                     <p id="right">CRUST THIN</p>
                     <p>ksh.50</p>
                     <div id="turn">
-                      <label><input type="radio" name="choose" </label>
+                      <label><input type="radio" name="choose" ></input></label>
                     </div>  
                 </div>       
             </div>
@@ -110,7 +111,7 @@
                     <p id="right">CRUST THICK</p> 
                     <p>ksh.100</p>
                         <div id="turn">
-                          <label><input type="radio" name="choose" </label>
+                          <label><input type="radio" name="choose" ></input></label>
                         </div>  
                 </div>       
             </div>
@@ -191,7 +192,7 @@
                     <div class="front">
                         <img src="./images/onions" alt="image of onions" width="130px;">
                         <p>ONIONS</p>
-                        <P>ksh.50</P>
+                        <p>ksh.50</p>
                             <div id="font">
                                 <label><input type="checkbox" name="check"></input> </label>
                             </div>  
@@ -272,10 +273,32 @@
                     </div>    
                 </td>
             </tr>
-        </table>
+        </table><br>
+        </div>
+        <button class="get" type="button" name="add-another-pizza">add-a-pizza</button><br><br><br>
+        <button class="pro" type="button" name="your-order">your-order</button>
         </form>  
     </center><br>
     </div>
-    
+    <center>
+    <div class="card">
+        <div class="card-body">
+            <h2>Finalize...</h2>
+                <p>Size-choosen:</p>
+                <p>Crust-picked:</p>
+                <p>Toppings-selected:</p>
+                <p>Total-amount=</p>
+        </div>
+    </div>
+    </center>
+    <center>
+        <h2>Delivery system</h2>
+        <p>Incase of delivery go ahead and select delivery and add your location to</p>
+        <p> so as to be delivered to your location.</p>
+        <p>Price for delivery is : ksh.400</p><br>
+        <input class="forget" type="name" name="Fullname">Fullname</input>
+        <input class="forget" type="email" name="Fullname">Email-adress</input>
+        
+    </center>
 </body>
 </html>
