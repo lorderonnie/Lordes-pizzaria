@@ -82,3 +82,23 @@ input[type="checkbox"]
     height: 25px;
     top: 60%;
 }
+.card{
+    background-color: black
+}
+.pro{
+    background: transparent;
+    color:gray;
+    font-family: 'Nosifer', cursive;
+}
+.card-body{
+    display: none;
+}
+.get{
+    background: transparent;
+    color:gray;
+    font-family: 'Nosifer', cursive;
+}
+.forget{
+    margin: 15px;
+    font-family: 'Sancreek', cursive;
+}
