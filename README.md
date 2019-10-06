@@ -2,14 +2,18 @@
 #### {This is a model pizza aite for pizza delivery and ordering.}, 4th October 2019
 #### By **Ronald Mwambia**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+  This is a model pizzaria website made to run deliverys and orders.The website is based to run on a customization process where one chooses what to put on there pizzas.Then the total coast is calculated addimg the amount of pizzas you want.
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+* access a computer or a tablet.
+
+* ensure you have WI-FI or data bundles.
+
+* enter github and use this link to see the sight:
+
+* to see the code just access the file via your terminal
+
+* then write code . or atom . to see the codes.
+
 ## Known Bugs
 {Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
 ## Technologies Used
