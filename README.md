@@ -17,13 +17,13 @@
 ## Known Bugs
  none so far.
 ## Technologies Used
- HTML:
+ HTML:I use HTML to make and design my page with images of diffrent kinds making it more interactive. 
 
- CSS:
+ CSS:I used a custom style.css to design and change the fonts of my writings.
 
- JAVASCRIPT:
+ JAVASCRIPT:I made the page more interactive using javascript making the buttons function properly.
 
- JQUERY:
+ JQUERY:I used a j.query file to make the page more interactive
 
 
 ## Support and contact details
