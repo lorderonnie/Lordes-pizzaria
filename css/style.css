@@ -91,9 +91,9 @@ input[type="checkbox"]
     font-family: 'Nosifer', cursive;
 }
 .card-body{
-    display: none;
+    display: non;
 }
-.get{
+.get,.hard{
     background: transparent;
     color:gray;
     font-family: 'Nosifer', cursive;
