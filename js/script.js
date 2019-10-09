@@ -1,38 +1,61 @@
+// bussiness logic
+
 function TotalAmount(size, crust, toppings) {
     this.sizeName = size;
     this.crustName = crust;
     this.toppingsName = toppings;
 }
+    var pizzaSize;
+    var pizzaCrust;
+    var pizzaToppings=[];
+    var delivery;
+    var totaltopping;
+    
+    function getToppingPrice(){
+      return pizzaToppings.length * 100
+    };
+    function getTotal(){
+        return pizzaCrust + pizzaSize + delivery + getToppingPrice();
+    };
+   
+
+    // ui logic
+    
 
 $(document).ready(function () {
-    $(".pro").click(function (event) {
-        event.preventDefault();
-        var pizzaSize=parseInt($("input[type=radio][name=select]:checked").val());
-        var pizzaCrust=parseInt($("input[type=radio][name=choose]:checked").val());
-        var pizzaToppings=[];
-        var delivery= parseInt($("input[type=radio][name=choose]:checked").val());
-
-        parseInt($("input[type=checkbox][name=check]:checked").each(function(){
-            pizzaToppings.push($(this).val())+ '+';
-        }));
-
-        var reducer= (accumulator, currentValue) => accumulator + currentValue;
-
-        var tep= pizzaToppings.reduce(reducer);
-        tep.push.($("+"));
-
-
-        // var newOrder=new TotalAmount(pizzaSize,pizzaCrust,pizzaToppings);
-    
-        // $('#all').append("<li>" + newOrder.all() + "</li>");
-
-       // var AnotherOrder= 
-    })
-
-
-
-
-
+  
+    $(".pro").click(function(){ 
+         pizzaSize=parseInt($("input[name='select']:checked").val());
+        pizzaCrust=parseInt($("input[name='choose']:checked").val());
+        $("input:checkbox[name='check']:checked").each(function(){
+            pizzaToppings.push(parseInt($(this).val()));
+        
+        });
+        delivery= parseInt($("input[name='del']:checked").val());  
+            var complete= getTotal();
+            $("#jay").append(
+                '<ul>'+
+                '<li>'+
+                '<p>Your pizza size:</p>'+ pizzaSize+
+                '</li>'+
+                '<li>'+
+                '<p>Your pizza crust:</p>'+ pizzaCrust+
+                '</li>'+
+                '<li>'+
+                '<p>Your pizza toppings:</p>'+ pizzaToppings+
+                '</li>'+
+                '<li>'+
+                '<p>Delivery cost =400:</p>'+ delivery+
+                '</li>'+
+                '<li>'+
+                '<p>totalamount:</p>'+ complete +
+                '</li>'+
+                '</ul>'
+            )
+        });
+        $(".ron").click(function(){
+            alert("your order has been receieved");
+        })
 
     $(".get").click(function () {
         $("#all").append('<h2>Choose your size...</h2><br>' +
