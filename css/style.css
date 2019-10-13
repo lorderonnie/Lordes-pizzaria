@@ -38,7 +38,7 @@ h4{
     font-size: 30px;
     font-family: 'Nosifer', cursive;
 }
-#turn{
+#turn,#promo{
     top: 10%;
     left: 85%;
     color:maroon;
@@ -93,7 +93,7 @@ input[type="checkbox"]
 .card-body{
     display: non;
 }
-.get,.hard{
+#get,.hard{
     background: transparent;
     color:gray;
     font-family: 'Nosifer', cursive;
@@ -110,4 +110,13 @@ input[type="checkbox"]
 }
 #jay{
     color: antiquewhite;
+}
+#neworder{
+    background: transparent;
+    color:gray;
+    font-family: 'New Rocker', cursive;
+    font-size: 20px;
+}
+#zzz{
+    background: transparent;
 }
